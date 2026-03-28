@@ -6,7 +6,7 @@ A modern, responsive, and fully customizable personal portfolio website to showc
 
 ## 🚀 Live Demo
 
-🔗 https://you
+🔗 [https://you](https://my-portfolio-gilt-nu-69.vercel.app/)
 
 ---
 
