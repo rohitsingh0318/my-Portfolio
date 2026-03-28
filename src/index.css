@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+@theme {
+  --color-darkblue: #0A192F;
+  --color-blue: #031c4f;
+  --color-lightblue: #e8f1ff;
+  --color-yellow: #ffb703;
+  --color-orange: #fb8500;
+  --color-gray: #a3a2a2;
+  --color-white: #f3f3f3;
+}
+
+/*Custom ScrollBar*/
+
+@media only screen and (min-width: 600px) {
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #0A192F;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ffb703;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffb703;
+}
+
+}
+/*Prevent horizontal scrolling*/
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
